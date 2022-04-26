@@ -18,6 +18,12 @@ public class btn : MonoBehaviour
     }
     public void EscribirEnConsola()
     {
-        Debug.Log("¡Hola mundo!");
+        int contador = 0;
+        while (contador < 5)
+        {
+            Debug.Log("¡Hola mundo!");
+            contador++;
+        }
+      
     }
 }
